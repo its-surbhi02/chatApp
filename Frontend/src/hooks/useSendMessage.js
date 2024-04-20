@@ -25,7 +25,9 @@ const useSendMessage = () => {
 		} finally {
 			setLoading(false);
 		}
-	};
+	}; 
+
+    
 
 	return { sendMessage, loading };
 };
